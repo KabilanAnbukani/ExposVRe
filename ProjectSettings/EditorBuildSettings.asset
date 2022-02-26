@@ -4,7 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Begin.unity
+    guid: a659b0b9ea401114fb0e47321c8cedb3
+  - enabled: 1
+    path: Assets/Scenes/Fear.unity
+    guid: f2cc1884add0a574ab49c3f593f2d93c
+  - enabled: 1
+    path: Assets/Scenes/easy_horror.unity
+    guid: 9d851b910172549659c81e5bec6e4644
+  - enabled: 1
+    path: Assets/Scenes/easy_heights.unity
+    guid: 62fe638f929621d488cd0425b470b5e7
+  - enabled: 1
+    path: Assets/Scenes/easy_spider.unity
+    guid: 0d740b129126a764d9b48a13a221569d
+  - enabled: 1
+    path: Assets/Scenes/med_horror.unity
+    guid: 8007d1a73d5b74d6599faada074594a3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

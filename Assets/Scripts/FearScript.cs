@@ -15,7 +15,16 @@ public class FearScript : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q)) {
-            SceneManager.LoadScene("eay_horr");
+            Debug.Log("Q");
+            SceneManager.LoadScene("easy_horror");
+        }
+        else if (Input.GetKeyDown(KeyCode.W)) {
+            SceneManager.LoadScene("easy_heights");
+            Debug.Log("W");
+        }
+        else if (Input.GetKeyDown(KeyCode.A)) {
+            SceneManager.LoadScene("easy_sppider");
+            Debug.Log("A");
         }
     }
 }
