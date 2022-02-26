@@ -1,0 +1,8 @@
+<root>
+  <message info="Receiver: 7000. From: 127.0.0.1:63926" type="Received" timestamp="[22:27:04]">
+    <packet>I2J1bmRsZQAAAAAAAAAAAAAAACAvZXhhbXBsZS8xAAAscwAASGVsbG8sIHdvcmxkIQAAAA==</packet>
+  </message>
+  <message info="Transmitter: 127.0.0.1:7000" type="Transmitted" timestamp="[22:27:04]">
+    <packet>I2J1bmRsZQAAAAAAAAAAAAAAACAvZXhhbXBsZS8xAAAscwAASGVsbG8sIHdvcmxkIQAAAA==</packet>
+  </message>
+</root>
