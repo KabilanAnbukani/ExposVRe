@@ -1,2 +1,3 @@
 # ExposVRe
-Hackathon
+Hackathon Legoooo
+
