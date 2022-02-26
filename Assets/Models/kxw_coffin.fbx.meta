@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 299d953b84045334cb1689c65d517b3a
+timeCreated: 1481330435
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: coffin
+    100002: coffin_bone1_jnt
+    100004: coffin_bone1_rotx
+    100006: coffin_bone1_roty
+    100008: coffin_bone1_rotz
+    100010: coffin_bone1_trans_ctrl
+    100012: coffin_bone2_jnt
+    100014: coffin_bone2_rotx
+    100016: coffin_bone2_roty
+    100018: coffin_bone2_rotz
+    100020: coffin_bone2_trans_ctrl
+    100022: coffin_door_jnt
+    100024: coffin_dr_ctrl
+    100026: coffin_rt_ctrl
+    100028: coffin_rt_jnt
+    100030: //RootNode
+    400000: coffin
+    400002: coffin_bone1_jnt
+    400004: coffin_bone1_rotx
+    400006: coffin_bone1_roty
+    400008: coffin_bone1_rotz
+    400010: coffin_bone1_trans_ctrl
+    400012: coffin_bone2_jnt
+    400014: coffin_bone2_rotx
+    400016: coffin_bone2_roty
+    400018: coffin_bone2_rotz
+    400020: coffin_bone2_trans_ctrl
+    400022: coffin_door_jnt
+    400024: coffin_dr_ctrl
+    400026: coffin_rt_ctrl
+    400028: coffin_rt_jnt
+    400030: //RootNode
+    4300000: coffin
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: coffin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_rt_ctrl
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone1_trans_ctrl
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone1_trans_ctrl/coffin_bone1_rotx
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone1_trans_ctrl/coffin_bone1_roty
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone1_trans_ctrl/coffin_bone1_rotz
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone2_trans_ctrl
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone2_trans_ctrl/coffin_bone2_rotx
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone2_trans_ctrl/coffin_bone2_roty
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_bone2_trans_ctrl/coffin_bone2_rotz
+        weight: 1
+      - path: coffin_rt_ctrl/coffin_dr_ctrl
+        weight: 1
+      - path: coffin_rt_jnt
+        weight: 1
+      - path: coffin_rt_jnt/coffin_bone1_jnt
+        weight: 1
+      - path: coffin_rt_jnt/coffin_bone2_jnt
+        weight: 1
+      - path: coffin_rt_jnt/coffin_door_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: coffin_rt_jnt
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

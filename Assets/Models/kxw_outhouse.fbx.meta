@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 0700ff66896a7ac40a638c943b437f1a
+timeCreated: 1481328707
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: helper_mfing_ctrl1
+    100002: helper_pfing_ctrl1
+    100004: helper_pinky_ctrl1
+    100006: helper_rfing_ctrl1
+    100008: helper_thumb_ctrl1
+    100010: //RootNode
+    100012: outhouse
+    100014: outhouse_arm_ctrl
+    100016: outhouse_arm_jnt
+    100018: outhouse_dr_base1
+    100020: outhouse_dr_base2
+    100022: outhouse_dr_ctrl
+    100024: outhouse_dr_jnt1
+    100026: outhouse_dr_jnt2
+    100028: outhouse_lid_base_jnt
+    100030: outhouse_lid_ctrl
+    100032: outhouse_lid_top_jnt
+    100034: outhouse_mfing_ctrl
+    100036: outhouse_mfing_ik
+    100038: outhouse_mfing_jnt1
+    100040: outhouse_mfing_jnt2
+    100042: outhouse_mfing_rt_jnt
+    100044: outhouse_pfing_ctrl
+    100046: outhouse_pfing_ik
+    100048: outhouse_pfing_jnt2
+    100050: outhouse_pfing_jnt3
+    100052: outhouse_pfing_rt_jnt
+    100054: outhouse_pinky_ctrl
+    100056: outhouse_pinky_ik
+    100058: outhouse_pinky_jnt1
+    100060: outhouse_pinky_jnt2
+    100062: outhouse_pinky_rt_jnt
+    100064: outhouse_rfing_ctrl
+    100066: outhouse_rfing_ik
+    100068: outhouse_rfing_jnt1
+    100070: outhouse_rfing_jnt2
+    100072: outhouse_rfing_rt_jnt
+    100074: outhouse_rt_ctrl
+    100076: outhouse_rt_jnt
+    100078: outhouse_thumb_ctrl
+    100080: outhouse_thumb_ik
+    100082: outhouse_thumb_jnt1
+    100084: outhouse_thumb_jnt2
+    100086: outhouse_thumb_rt_jnt
+    100088: outhouse_wrist_ctrl
+    100090: outhouse_wrist_jnt
+    400000: helper_mfing_ctrl1
+    400002: helper_pfing_ctrl1
+    400004: helper_pinky_ctrl1
+    400006: helper_rfing_ctrl1
+    400008: helper_thumb_ctrl1
+    400010: //RootNode
+    400012: outhouse
+    400014: outhouse_arm_ctrl
+    400016: outhouse_arm_jnt
+    400018: outhouse_dr_base1
+    400020: outhouse_dr_base2
+    400022: outhouse_dr_ctrl
+    400024: outhouse_dr_jnt1
+    400026: outhouse_dr_jnt2
+    400028: outhouse_lid_base_jnt
+    400030: outhouse_lid_ctrl
+    400032: outhouse_lid_top_jnt
+    400034: outhouse_mfing_ctrl
+    400036: outhouse_mfing_ik
+    400038: outhouse_mfing_jnt1
+    400040: outhouse_mfing_jnt2
+    400042: outhouse_mfing_rt_jnt
+    400044: outhouse_pfing_ctrl
+    400046: outhouse_pfing_ik
+    400048: outhouse_pfing_jnt2
+    400050: outhouse_pfing_jnt3
+    400052: outhouse_pfing_rt_jnt
+    400054: outhouse_pinky_ctrl
+    400056: outhouse_pinky_ik
+    400058: outhouse_pinky_jnt1
+    400060: outhouse_pinky_jnt2
+    400062: outhouse_pinky_rt_jnt
+    400064: outhouse_rfing_ctrl
+    400066: outhouse_rfing_ik
+    400068: outhouse_rfing_jnt1
+    400070: outhouse_rfing_jnt2
+    400072: outhouse_rfing_rt_jnt
+    400074: outhouse_rt_ctrl
+    400076: outhouse_rt_jnt
+    400078: outhouse_thumb_ctrl
+    400080: outhouse_thumb_ik
+    400082: outhouse_thumb_jnt1
+    400084: outhouse_thumb_jnt2
+    400086: outhouse_thumb_rt_jnt
+    400088: outhouse_wrist_ctrl
+    400090: outhouse_wrist_jnt
+    4300000: outhouse
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: outhouse
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: outhouse
+        weight: 1
+      - path: outhouse_rt_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_mfing_ctrl1
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_mfing_ctrl1/outhouse_mfing_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_mfing_ctrl1/outhouse_mfing_ctrl/outhouse_mfing_ik
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_pfing_ctrl1
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_pfing_ctrl1/outhouse_pfing_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_pfing_ctrl1/outhouse_pfing_ctrl/outhouse_pfing_ik
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_pinky_ctrl1
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_pinky_ctrl1/outhouse_pinky_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_pinky_ctrl1/outhouse_pinky_ctrl/outhouse_pinky_ik
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_rfing_ctrl1
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_rfing_ctrl1/outhouse_rfing_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_rfing_ctrl1/outhouse_rfing_ctrl/outhouse_rfing_ik
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_thumb_ctrl1
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_thumb_ctrl1/outhouse_thumb_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_arm_ctrl/outhouse_wrist_ctrl/helper_thumb_ctrl1/outhouse_thumb_ctrl/outhouse_thumb_ik
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_dr_ctrl
+        weight: 1
+      - path: outhouse_rt_ctrl/outhouse_lid_ctrl
+        weight: 1
+      - path: outhouse_rt_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_mfing_rt_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_mfing_rt_jnt/outhouse_mfing_jnt1
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_mfing_rt_jnt/outhouse_mfing_jnt1/outhouse_mfing_jnt2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_pfing_rt_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_pfing_rt_jnt/outhouse_pfing_jnt2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_pfing_rt_jnt/outhouse_pfing_jnt2/outhouse_pfing_jnt3
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_pinky_rt_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_pinky_rt_jnt/outhouse_pinky_jnt1
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_pinky_rt_jnt/outhouse_pinky_jnt1/outhouse_pinky_jnt2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_rfing_rt_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_rfing_rt_jnt/outhouse_rfing_jnt1
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_rfing_rt_jnt/outhouse_rfing_jnt1/outhouse_rfing_jnt2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_thumb_rt_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_thumb_rt_jnt/outhouse_thumb_jnt1
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_arm_jnt/outhouse_wrist_jnt/outhouse_thumb_rt_jnt/outhouse_thumb_jnt1/outhouse_thumb_jnt2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_dr_base1
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_dr_base1/outhouse_dr_jnt1
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_dr_base2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_dr_base2/outhouse_dr_jnt2
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_lid_base_jnt
+        weight: 1
+      - path: outhouse_rt_jnt/outhouse_lid_base_jnt/outhouse_lid_top_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: outhouse_rt_jnt
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

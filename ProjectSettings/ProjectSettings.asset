@@ -684,7 +684,21 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: CROSS_PLATFORM_INPUT;EXTOSC
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT;EXTOSC
+    13: CROSS_PLATFORM_INPUT;EXTOSC
+    14: MOBILE_INPUT;EXTOSC
+    19: EXTOSC
+    21: EXTOSC
+    25: EXTOSC
+    27: EXTOSC
+    28: EXTOSC
+    29: EXTOSC
+    30: EXTOSC
+    32: EXTOSC
+    33: EXTOSC
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -775,7 +789,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 1
+  activeInputHandler: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
