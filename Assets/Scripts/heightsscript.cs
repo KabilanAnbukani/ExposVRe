@@ -9,7 +9,7 @@ public class heightsscript : MonoBehaviour
     IEnumerator Example()
     {           
 
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(50);
         print("SWITCHING TO MEDIUM");
         HorrorControlMed.sc1 = 0;
         HorrorControl.sc = 0;
